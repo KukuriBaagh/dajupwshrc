@@ -1,0 +1,149 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">PsHosts</S>
+      <Version N="Version">1.2.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Provides Cmdlets for manipulating the local hosts file</S>
+      <S N="Author">Richard Szalay</S>
+      <S N="CompanyName">richardszalay</S>
+      <S N="Copyright">(c) 2017 Richard Szalay. All rights reserved.</S>
+      <DT N="PublishedDate">2017-08-13T02:47:36+05:30</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2023-10-21T12:13:11.8298987+05:30</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://raw.githubusercontent.com/richardszalay/pshosts/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/richardszalay/pshosts</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Networking</S>
+          <S>Development</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-HostEntry</S>
+                <S>Get-HostEntry</S>
+                <S>Set-HostEntry</S>
+                <S>Disable-HostEntry</S>
+                <S>Enable-HostEntry</S>
+                <S>Remove-HostEntry</S>
+                <S>Test-HostEntry</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-HostEntry</S>
+                <S>Get-HostEntry</S>
+                <S>Set-HostEntry</S>
+                <S>Disable-HostEntry</S>
+                <S>Enable-HostEntry</S>
+                <S>Remove-HostEntry</S>
+                <S>Test-HostEntry</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed Set-HostEntry -Force (broken in 1.2.1)_x000D__x000A_* Hostname parameter completion now works correctly on Linux (#12)_x000D__x000A_* Added `-Loopback` and `-IPv6Loopback` parameters to Add/Set-HostEntry (#6)_x000D__x000A_* Added `IPAddress` and `IsLoopback` properties to HostEntry (#2)</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2017 Richard Szalay. All rights reserved.</S>
+          <S N="description">Provides Cmdlets for manipulating the local hosts file</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed Set-HostEntry -Force (broken in 1.2.1)_x000D__x000A_* Hostname parameter completion now works correctly on Linux (#12)_x000D__x000A_* Added `-Loopback` and `-IPv6Loopback` parameters to Add/Set-HostEntry (#6)_x000D__x000A_* Added `IPAddress` and `IsLoopback` properties to HostEntry (#2)</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">258323</S>
+          <S N="downloadCount">265087</S>
+          <S N="packageSize">59341</S>
+          <S N="published">13-08-2017 02:47:36 +05:30</S>
+          <S N="created">13-08-2017 02:47:36 +05:30</S>
+          <S N="lastUpdated">21-10-2023 05:26:23 +05:30</S>
+          <S N="tags">Networking Development PSModule PSCmdlet_Add-HostEntry PSCommand_Add-HostEntry PSCmdlet_Get-HostEntry PSCommand_Get-HostEntry PSCmdlet_Set-HostEntry PSCommand_Set-HostEntry PSCmdlet_Disable-HostEntry PSCommand_Disable-HostEntry PSCmdlet_Enable-HostEntry PSCommand_Enable-HostEntry PSCmdlet_Remove-HostEntry PSCommand_Remove-HostEntry PSCmdlet_Test-HostEntry PSCommand_Test-HostEntry PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-10-21T05:26:23Z</S>
+          <S N="NormalizedVersion">1.2.2</S>
+          <S N="Authors">Richard Szalay</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">PsHosts.nuspec|PsHosts.format.ps1xml|PsHosts.ParameterCompletion.psm1|PsHosts.psd1|PsHosts.zip|RichardSzalay.HostEntry.dll|RichardSzalay.HostEntry.pdb|RichardSzalay.Hosts.Powershell.dll|RichardSzalay.Hosts.Powershell.pdb</S>
+          <S N="GUID">665f6cdf-d7c5-4b2b-8b0a-071d6ce7d16f</S>
+          <S N="PowerShellVersion">3.0</S>
+          <S N="DotNetFrameworkVersion">4.0</S>
+          <S N="CLRVersion">4.0</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\dajuPahadi\Documents\PowerShell\Modules\PsHosts\1.2.2</S>
+    </MS>
+  </Obj>
+</Objs>
